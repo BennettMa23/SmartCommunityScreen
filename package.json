@@ -1,0 +1,29 @@
+{
+  "name": "vue-project",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "@splinetool/runtime": "^1.6.8",
+    "axios": "^1.7.2",
+    "echarts": "^5.5.0",
+    "js-cookie": "^3.0.5",
+    "qiankun": "^2.10.16",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.2",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "eslint": "^8.57.0",
+    "eslint-plugin-vue": "^9.23.0",
+    "sass": "^1.77.5",
+    "vite": "^5.2.8"
+  }
+}
